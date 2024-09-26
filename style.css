@@ -1,0 +1,274 @@
+@import url("https://use.typekit.net/mhh8git.js");
+
+/* @import url("https://assets-global.website-files.com/62a059f7c3b9147ea6a4afb2/css/outliant.75fb02331.min.css"); */
+
+@font-face {
+  font-family: "aktiv-grotesk-extended";
+  font-display: optional;
+  font-family: "aktiv-grotesk-extended";
+  font-display: optional;
+  font-family: "Anonymous Pro Bold";
+  font-display: optional;
+  font-family: "Anonymous Pro 400";
+  font-display: optional;
+  font-family: "Aktiv Grotesk EX";
+  font-display: optional;
+  font-family: "Fakt Pro 400";
+  font-display: optional;
+  font-family: "Fakt Pro 300";
+  font-display: optional;
+  font-family: "Fakt Pro 500";
+  font-display: optional;
+  font-family: "Fakt 700 Bold";
+  font-display: optional;
+}
+.ashby-application-form-autofill-pane {
+  display: block !important;
+  background-color: #eeeeee;
+  margin-top: 20px;
+}
+
+@media screen and (max-width: 991px) {
+  .ashby-application-form-autofill-input-base-layer > div {
+    flex-direction: column;
+  }
+}
+
+.ashby-application-form-autofill-input-root {
+  background-color: #eeeeee;
+  border: none;
+}
+
+.ashby-application-form-section-header {
+  border-bottom: 0;
+}
+.ashby-application-form-section-header h2 {
+  display: none;
+}
+
+.ashby-application-form-container {
+  background: #eee;
+  padding: 0;
+}
+.ashby-application-form-container fieldset {
+  margin-bottom: 3.5rem !important;
+}
+.ashby-application-form-field-entry {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 3.5rem !important;
+}
+
+.ashby-application-form-question-description {
+  order: 3;
+}
+.ashby-application-form-question-description p,
+.ashby-application-form-question-description code {
+  color: #202020;
+  font-family: Manrope, sans-serif;
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 300;
+  line-height: 20px;
+  margin-top: 13px;
+}
+
+.ashby-application-form-question-description ul {
+  margin-left: 12px;
+}
+
+.ashby-application-form-question-description ul li {
+  margin-bottom: -10px;
+}
+.ashby-application-form-field-entry input,
+.ashby-application-form-field-entry textarea {
+  border: 1px solid #a3a3a3;
+  border-radius: 12px;
+  color: #202020;
+  font-family: Manrope, sans-serif;
+  font-size: 1rem;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 300;
+  line-height: 32px;
+  order: 1;
+  padding: 10px;
+}
+.ashby-application-form-field-entry input:hover,
+.ashby-application-form-field-entry input:focus-within,
+.ashby-application-form-field-entry input:focus,
+.ashby-application-form-field-entry textarea:hover,
+.ashby-application-form-field-entry textarea:focus-within,
+.ashby-application-form-field-entry textarea:focus {
+  outline-color: transparent !important;
+  border-color: #202020 !important;
+}
+.ashby-application-form-field-entry label {
+  position: absolute;
+  pointer-events: none;
+  left: 19px;
+  top: 13px;
+  transition: 0.2s ease all;
+  color: #202020;
+  font-family: Manrope, sans-serif;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 300;
+  line-height: 32px;
+  order: 2;
+}
+.ashby-application-form-field-entry:focus-within label,
+.ashby-application-form-field-entry:has(input:not(:placeholder-shown)) label,
+.ashby-application-form-field-entry:has(textarea:not(:placeholder-shown))
+  label {
+  top: -10px;
+  z-index: -1;
+  display: none;
+}
+label[for="_systemfield_resume"] {
+  display: block !important;
+  position: relative !important;
+  z-index: 1 !important;
+  order: 0 !important;
+}
+.ashby-application-form-field-entry
+  input:not(:focus)::-webkit-input-placeholder,
+.ashby-application-form-field-entry
+  textarea:not(:focus)::-webkit-input-placeholder {
+  color: transparent;
+}
+.ashby-application-form-field-entry input:not(:focus):-moz-placeholder,
+.ashby-application-form-field-entry textarea:not(:focus):-moz-placeholder {
+  color: transparent;
+}
+.ashby-application-form-field-entry input:not(:focus)::-moz-placeholder,
+.ashby-application-form-field-entry textarea:not(:focus)::-moz-placeholder {
+  color: transparent;
+}
+.ashby-application-form-field-entry input:not(:focus):-ms-input-placeholder,
+.ashby-application-form-field-entry textarea:not(:focus):-ms-input-placeholder {
+  color: transparent;
+}
+div[class^="_option_"] span {
+  background-color: transparent !important;
+  border-color: #a6a7a9 !important;
+}
+div[class^="_option_"] span[class*=" _checked_"] {
+  background-color: transparent !important;
+  border-color: #202020 !important;
+}
+div[class*="_option_"] span[class*=" _checked_"] span {
+  background-color: #202020 !important;
+}
+div[class^="_option_"] span[class*=" _checked_"] svg {
+  fill: #202020 !important;
+}
+
+div[class^="_file_"] > p {
+  background-color: transparent !important;
+  padding: 0 !important;
+  padding-left: 10px !important;
+  border-color: #202020 !important;
+}
+.ashby-application-form-container
+  fieldset
+  label.ashby-application-form-question-title,
+div[class^="_option_"] label {
+  color: #202020;
+  font-family: Manrope, sans-serif;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 300;
+  line-height: 32px;
+  margin-top: 0 !important;
+  margin-left: 0px !important;
+}
+div[class^="_option_"] label {
+  margin-top: 0 !important;
+  margin-left: 13px !important;
+}
+button[class*=" _secondary_"],
+button[class^=" _secondary_"] {
+  color: #202020 !important;
+  border-color: #202020 !important;
+}
+button[class*=" _secondary_"],
+button[class^=" _secondary_"]:hover {
+  background-color: transparent !important;
+}
+button[class*=" _secondary_"] svg,
+button[class^=" _secondary_"] svg {
+  fill: #202020 !important;
+}
+button[class*=" _primary_"] {
+  max-height: 64px;
+  padding: 24px 40px;
+  border-radius: 40px;
+  background-color: #7ce3ac;
+  color: #202020;
+  text-align: center;
+  cursor: pointer;
+  justify-content: center;
+  align-items: center;
+  max-width: 287px;
+  font-size: 1.375rem;
+  font-weight: 500;
+  line-height: 28px;
+  display: flex;
+}
+
+button[class*=" _primary_"] span {
+  letter-spacing: 0rem;
+  padding: 0.75rem 0;
+  font-family: aktiv-grotesk-extended, sans-serif;
+
+  font-size: 22px;
+  font-weight: 500;
+  line-height: 28px;
+  text-decoration: none;
+  display: inline-block;
+}
+
+button[class*=" _primary_"]:hover {
+  border: none !important;
+  border-color: transparent !important;
+}
+
+button[class*=" _primary_"] svg {
+  display: none !important;
+}
+div#root > p,
+footer {
+  display: none !important;
+}
+
+div[class^="_errorsContainer_"] ul li {
+  margin: 0 !important;
+}
+
+div[class^="_errorsContainer_"] h2 {
+  font-family: aktiv-grotesk-extended, sans-serif;
+  font-size: 1.25rem;
+  font-weight: 700;
+  line-height: 2rem;
+}
+div[class^="_errorsContainer_"] ul li p {
+  font-family: "Fakt Pro 300";
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 300;
+  line-height: 20px;
+  margin-top: 0px;
+}
+
+body {
+  background-color: #eee;
+}
+
+#ashby_embed_iframe {
+  width: 100%;
+  height: 100% !important;
+  border: none;
+  background-color: transparent !important;
+}
