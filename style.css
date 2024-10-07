@@ -57,7 +57,7 @@
   position: relative;
   display: flex;
   flex-direction: column;
-  margin-bottom: 3.5rem !important;
+  /**margin-bottom: 3.5rem !important;**/
 }
 
 .ashby-application-form-question-description {
@@ -87,11 +87,10 @@
   border-radius: 12px;
   color: #202020;
   font-family: Manrope, sans-serif;
-  font-size: 1rem;
-  font-size: 18px;
+  font-size: 16px;
   font-style: normal;
   font-weight: 300;
-  line-height: 38px;
+  line-height: 18px;
   order: 1;
   padding: 10px;
 }
@@ -107,14 +106,15 @@
 .ashby-application-form-field-entry label {
   position: absolute;
   pointer-events: none;
+  /** left: 19px; **/
   top: 13px;
   transition: 0.2s ease all;
-  color: #202020;
+  color: #787878;
   font-family: Manrope, sans-serif;
-  font-size: 18px;
+  font-size: 16px;
+  line-height: 18px;
   font-style: normal;
   font-weight: 300;
-  line-height: 20px;
   margin: 0 10px;
   order: 2;
 }
@@ -153,6 +153,9 @@ label[for="_systemfield_resume"] {
 div[class^="_option_"] span {
   background-color: transparent !important;
   border-color: #a6a7a9 !important;
+  height: 20px;
+    width: 20px;
+    border-radius: 3px;
 }
 div[class^="_option_"] span[class*=" _checked_"] {
   background-color: transparent !important;
@@ -163,6 +166,8 @@ div[class*="_option_"] span[class*=" _checked_"] span {
 }
 div[class^="_option_"] span[class*=" _checked_"] svg {
   fill: #202020 !important;
+  margin-left: -6px;
+  margin-top: -5px;
 }
 
 div[class^="_file_"] > p {
@@ -177,15 +182,15 @@ div[class^="_file_"] > p {
 div[class^="_option_"] label {
   color: #202020;
   font-family: Manrope, sans-serif;
-  font-size: 18px;
+  font-size: 16px;
   font-style: normal;
   font-weight: 300;
-  line-height: 32px;
+  line-height: 18px;
   margin-top: 0 !important;
   margin-left: 0px !important;
 }
 div[class^="_option_"] label {
-  margin-top: 0 !important;
+  margin-top: 5px !important;
   margin-left: 13px !important;
 }
 button[class*=" _secondary_"],
