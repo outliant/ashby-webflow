@@ -91,7 +91,7 @@
   font-size: 18px;
   font-style: normal;
   font-weight: 300;
-  line-height: 32px;
+  line-height: 38px;
   order: 1;
   padding: 10px;
 }
@@ -107,7 +107,6 @@
 .ashby-application-form-field-entry label {
   position: absolute;
   pointer-events: none;
-  left: 19px;
   top: 13px;
   transition: 0.2s ease all;
   color: #202020;
@@ -115,7 +114,8 @@
   font-size: 18px;
   font-style: normal;
   font-weight: 300;
-  line-height: 32px;
+  line-height: 20px;
+  margin: 0 10px;
   order: 2;
 }
 .ashby-application-form-field-entry:focus-within label,
