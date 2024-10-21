@@ -132,6 +132,10 @@ label[for="_systemfield_resume"] {
   z-index: 1 !important;
   order: 0 !important;
 }
+.ashby-application-form-field-entry input::placeholder,
+.ashby-application-form-field-entry textarea::placeholder {
+  color: #787878;
+}
 .ashby-application-form-field-entry
   input:not(:focus)::-webkit-input-placeholder,
 .ashby-application-form-field-entry
@@ -279,8 +283,7 @@ body {
 }
 
 @media only screen and (max-width: 425px) {
-  .ashby-application-form-field-entry:nth-last-child(-n + 2) input, 
-  .ashby-application-form-field-entry:nth-last-child(3) input {
+  .ashby-application-form-field-entry:nth-last-child(-n + 2) input {
     line-height: 34px;
   }
 }
